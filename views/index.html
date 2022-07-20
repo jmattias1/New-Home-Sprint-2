@@ -10,21 +10,23 @@
     <script src="https://kit.fontawesome.com/203abf4523.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="body">
     <header class="header">
-        <h1>New Home</h1>
-        <p>- Lo mejor para tu hogar -</p>
-        <section>
-         <div class="d-flex a-center">
-            <a class="pl-100"><img src="/img/logo 1.png" alt="logo"></a>
+        <section class="header__section">
+        <div class="section__text">
+            <h1>New Home</h1>
+            <p>- Lo mejor para tu hogar -</p>   
+        </div>
+         <div class="section__menu">
+            <i class="fa-solid fa-bars"></i>
+            <a class="section__pl-100"><img src="/img/logo 1.png" alt="logo"></a>
             <form class="w-100 text-center" action="">
             <input class="search" placeholder="Buscar productos,marcas y mas..." type="text">
             <button><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
         </div>   
         </section>
-
-        <nav class="d-flex justi-end">
+        <nav class="section__d-flex__justi-end">
             <ul class="menu d-flex vw-35 text-center j-between">
                 <li><a class="c-white " href="/productDetail">Categorias</a></li>
                 <div class="d-flex">
@@ -35,13 +37,62 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
+
+
+
+
+    <main class="main">
+        <section class="main__section">
+            <img class="main__section__banner__img" src="/img/ofertas-banner2.jpg" alt="">    
+            <h2>Recomendado para ti</h2>
+            <div class="main__section__recomendado">
+            <img class ="main__section__img" src="/img/aire.jpg" alt="">
+            <h5>Aire acondicionado</h5>
+            <p class="">$109.999</p>
+            <p class="">20% OFF</p>    
+            </div> 
+            <div class="main__section__recomendado">
+            <img class ="main__section__img" src="/img/heladera.jpg" alt="">
+            <h5>Heladera</h5> 
+            <p class="">$159.999</p>
+            <p class="">15% OFF</p>
+            </div>
+            <div class="main__section__recomendado">
+            <img class ="main__section__img" src="/img/lavarropa.jpg" alt="">
+            <h5>Lavarropa</h5>
+            <p class="">$69.999</p>
+            <p class="">30% OFF</p>    
+            </div>
             <div>
-            <img src="/img/cambiar-electrodomesticos.jpeg" alt="">    
+                <img class="main__section__ofertas" src="/img/ofertas.jpg" alt="">
+                <p>Ofertas en productos Samsung</p>
+            </div>
+
+            <h2>Lo mejor para tu hogar</h2>
+            <div class="main__section__ofertas">
+            <img class ="main__section__img" src="/img/cocina.jpg" alt="">
+            <h5>Cocina</h5>
+            <p class="">$59.999</p>
+            <p class="">40% OFF</p>    
+            </div> 
+            <div class="main__section__ofertas">
+            <img class ="main__section__img" src="/img/tostadora.png" alt="">
+            <h5>Tostadora</h5> 
+            <p class="">$5.999</p>
+            <p class="">5% OFF</p>
+            </div>
+            <div class="main__section__ofertas">
+            <img class ="main__section__img" src="/img/tv.jpg" alt="">
+            <h5>TV</h5>
+            <p class="">$112.999</p>
+            <p class="">25% OFF</p>    
             </div>
         </section>
     </main>
+
+
+
+
     <footer class="footer">
         <div class="d-flex j-around">
             <img class="mt-20" width="40px" height="40px" src="/img/logo 1.png" alt="logo">
@@ -76,7 +127,6 @@
                 <li><i class="fa-brands fa-instagram i3"></i></li>
             </ul>
         </div>
-
     </footer>
 
 </body>

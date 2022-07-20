@@ -1,0 +1,52 @@
+.header__section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    flex-direction: column;
+}
+
+.section__text{ 
+    text-align: center;
+}
+
+.section__menu{
+    text-align: center;
+}
+
+.section__pl-100{
+    display: none;
+}
+
+.section__d-flex__justi-end{
+    display: none;
+}
+
+
+/* MAIN */
+
+.main__section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    flex-direction: column;
+}
+
+.main__section h2{
+    padding: 30px 0 0 0;
+}
+
+.main__section__banner__img{
+    width: 100%;
+}
+
+.main__section__recomendado{
+    width: 100%;
+}
+
+.main__section__ofertas{
+    width: 100%;
+}
+
+.main__section__img{
+    width: 90%;
+}
