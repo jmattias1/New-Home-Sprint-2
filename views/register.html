@@ -13,7 +13,9 @@
 <body>
     <header class="header">
         <div class="d-flex a-center">
-            <a class="pl-100"><img src="/img/logo 1.png" alt="logo"></a>
+            <div>
+                <a class="pl-100" href="/"><img src="/img/logo 1.png" alt="logo"></a>
+            </div>
             <form class="w-100 text-center" action="">
                 <input class="search" placeholder="Buscar productos,marcas y mas..." type="text">
                 <button><i class="fa-solid fa-magnifying-glass"></i></button>
@@ -32,6 +34,65 @@
 
     </header>
     <main>
+        <h1>Register</h1>
+        <form action="/register" method="post">
+            <div>
+                <label for="nombre">Nombre de usuario</label>
+                <input type="text" name="nombre" id="nombre">
+            </div>
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="password">Contraseña</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <div>
+                <label for="password2">Confirmar contraseña</label>
+                <input type="password" name="password2" id="password2">
+            </div>
+            
+            <div>
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name">
+            </div>
+            
+            <div>
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido">
+            </div>
+            
+            <div>
+                <label for="telefono">Telefono</label>
+                <input type="tel" name="telefono" id="telefono">
+            </div>
+            <div>
+                <label>Pais</label>
+                <select name="Pais" id="">
+                    <option value="1">Argentina</option>
+                    <option value="2">Peru</option>
+                    <option value="3">Paraguay</option>
+                    <option value="4">Uruguay</option>
+                    <option value="5">Chile</option>
+                    <option value="6">Brazil</option>
+                </select>
+            </div>
+            <div>
+                <label>Moneda</label>
+                <select name="Moneda" id="">
+                    <option value="1">Peso Argentino</option>
+                    <option value="2">Soles</option>
+                    <option value="3">Peso Paraguayo</option>
+                    <option value="4">Peso Uruguayo</option>
+                    <option value="5">Peso chileno</option>
+                    <option value="6">Real</option>
+                </select>
+            </div>
+            <button type="submit">Abrir cuenta</button>
+        </form>
+
+
 
     </main>
     <footer class="footer">
