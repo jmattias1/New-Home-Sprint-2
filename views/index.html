@@ -10,21 +10,23 @@
     <script src="https://kit.fontawesome.com/203abf4523.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="body">
     <header class="header">
-        <h1>New Home</h1>
-        <p>- Lo mejor para tu hogar -</p>
-        <section>
-            <i  class="fa-solid fa-bars"></i>
-            <div class="d-flex a-center">
-            <a class="pl-100"><img src="/img/logo 1.png" alt="logo"></a>
+        <section class="header__section">
+        <div class="section__text">
+            <h1>New Home</h1>
+            <p>- Lo mejor para tu hogar -</p>   
+        </div>
+         <div class="section__menu">
+            <i class="fa-solid fa-bars"></i>
+            <a class="section__pl-100"><img src="/img/logo2.png" alt="logo"></a>
             <form class="w-100 text-center" action="">
             <input class="search" placeholder="Buscar productos,marcas y mas..." type="text">
             <button><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
-        </div>
+        </div>   
         </section>
-        <nav class="d-flex justi-end">
+        <nav class="section__d-flex__justi-end">
             <ul class="menu d-flex vw-35 text-center j-between">
                 <li><a class="c-white " href="/productDetail">Categorias</a></li>
                 <div class="d-flex">
@@ -35,47 +37,97 @@
             </ul>
         </nav>
     </header>
-    <main class ="main">
-        <img src="/img/cambiar-electrodomesticos.jpeg" alt="">
 
+
+
+
+    <main class="main">
+        <img class="main__section__banner__img" src="/img/ofertas-banner2.jpg" alt="">
+        <section class="main__section">
+            <h2>Recomendado para ti</h2>
+            <div class="main__section__caja">
+            <img class ="main__section__img" src="/img/aire.jpg" alt="">
+            <div class="main__section__texto">
+            <h5>Aire acondicionado</h5>
+            <p class="">$109.999</p>
+            <p class="">20% OFF</p>  
+            </div>    
+            </div> 
+            <div class="main__section__caja">
+            <img class ="main__section__img" src="/img/heladera.jpg" alt="">
+            <div class="main__section__texto">
+            <h5>Heladera</h5> 
+            <p class="">$159.999</p>
+            <p class="">15% OFF</p>
+            </div> 
+            </div>
+            <div class="main__section__caja">
+            <img class ="main__section__img" src="/img/lavarropa.jpg" alt="">
+            <div class="main__section__texto">
+            <h5>Lavarropa</h5>
+            <p class="">$69.999</p>
+            <p class="">30% OFF</p> 
+            </div>    
+            </div>
+            <div class="main__section__img__banner">                
+                <p>Ofertas en productos Samsung</p>
+                <img class="main__section__banner__img__2" src="/img/ofertas-banner3.jpg" alt="">
+
+            </div>
+
+            <h2>Lo mejor para tu hogar</h2>
+            <div class="main__section__caja">
+            <img class ="main__section__img" src="/img/cocina.jpg" alt="">
+            <div class="main__section__texto">
+            <h5>Cocina</h5>
+            <p class="">$59.999</p>
+            <p class="">40% OFF</p>
+            </div>     
+            </div> 
+            <div class="main__section__caja">
+            <img class ="main__section__img" src="/img/tostadora.png" alt="">
+            <div class="main__section__texto">
+            <h5>Tostadora</h5> 
+            <p class="">$5.999</p>
+            <p class="">5% OFF</p>
+            </div> 
+            </div>
+            <div class="main__section__caja">
+            <img class ="main__section__img" src="/img/tv.jpg" alt="">
+            <div class="main__section__texto">
+            <h5>TV</h5>
+            <p class="">$112.999</p>
+            <p class="">25% OFF</p>
+            </div>     
+            </div>
+        </section>
+        <img class="main__section__logo" src="/img/logo2.jpg" alt="logo">
     </main>
+
     <footer class="footer">
-        <div class="d-flex j-around">
-            <a href="/index"><img class="mt-20" width="40px" height="40px" src="/img/logo 1.png" alt="logo"></a>
-            <ul>
-                <p>Aatencion al cliente:</p>
-                <li>0810 999 6644</li>
-                <li>LU-VI de 09:00 a 18:00</li>
-                <li>SA de 9:00 a 13:00</li>
-            </ul>
-            <ul>
-                <p>Venta telefonica:</p>
-                <li>0810 222 3700</li>
-                <li>LU-VI de 8:00 a 20:00</li>
-                <li>SA-DO-Feriados 9:00 a 21:00</li>
-            </ul>
-            <ul>
-                <li>Comprar en newhomearg.com.ar</li>
-                <li>Trabaja con nosotros</li>
-                <li>ofertas y promociones</li>
-            </ul>
+        <p class="footer__p">Comprar en <a href="">newhomearg.com.ar</a></p>
+        <section class="footer__section">
+            <div class="footer__tex">
+            <p>Atencion al cliente:
+            0810 999 6644 LU-VI de 09:00 a 18:00
+            SA de 9:00 a 13:00</p>
+            <p>Venta telefonica:
+            0810 222 3700
+            LU-VI de 8:00 a 20:00
+            SA-DO-Feriados 9:00 a 21:00</p>
+            </div>  
+        <div class="footer__section__buscador">
+        <p>Recibi ofertas y promociones</p> 
+        <form action="">
+            <input placeholder="Ingresa tu email" type="text">
+        </form>  
         </div>
-        <div class="d-flex  j-between">
-            <p class="">Las fotos son a modo ilustrativo.La venta de cualquiera de los productos publicados esta sujeta
-                a la
-                verificacion de stock</p>
-            <form class="w-60 justi-end d-flex" action="">
-                <input placeholder="Ingresa tu email" type="text">
-            </form>
-            <ul class="d-flex">
-                <li><i class="fa-brands fa-whatsapp i"></i></li>
-                <li><i class="fa-brands fa-facebook i2"></i></li>
-                <li><i class="fa-brands fa-instagram i3"></i></li>
-            </ul>
+        <div class="footer__section__logos">
+                <i class="fa-brands fa-whatsapp i"></i>
+                <i class="fa-brands fa-facebook i2"></i>
+                <i class="fa-brands fa-instagram i3"></i>  
         </div>
-
+        </section> 
     </footer>
-
 </body>
-
 </html>
