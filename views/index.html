@@ -13,34 +13,31 @@
 <body class="body">
     <header class="header">
         <section class="header__section">
-        <div class="section__text">
+        <div class="header__section__text">
             <h1>New Home</h1>
             <p>- Lo mejor para tu hogar -</p>   
         </div>
-         <div class="section__menu">
-            <i class="fa-solid fa-bars"></i>
-            <a class="section__pl-100"><img src="/img/logo2.png" alt="logo"></a>
-            <form class="w-100 text-center" action="">
+        <div class="header__section__img">
+            <a><img class="header__section__logo" src="/img/logo2.jpg" alt="logo"></a>
+        </div>
+         <div class="header__section__menu">
+            <i id="burguer" class="fa-solid fa-bars"></i>
+            <form class="header__section__barra" action="">
             <input class="search" placeholder="Buscar productos,marcas y mas..." type="text">
-            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button class="header__section__button"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
-        </div>   
-        </section>
-        <nav class="section__d-flex__justi-end">
-            <ul class="menu d-flex vw-35 text-center j-between">
-                <li><a class="c-white " href="/productDetail">Categorias</a></li>
-                <div class="d-flex">
-                    <li><a class="c-white p-10" href="/register">Crea tu cuenta</a></li>
-                    <li><a class="c-white p-10" href="/login">Ingresa</a></li>
-                    <li><a class="c-white p-10" href="/productCart"><i class="fa-solid fa-cart-shopping"></i></a></li>
-                </div>
+        </div>
+        
+        <nav class="header__nav">
+            <ul>
+                <li class="header__nav__li"><a href="/register">Crear cuenta</a></li>
+                <li class="header__nav__li"><a href="/login">Ingresa</a></li>
+                <li class="header__nav__li"><a href="/productDetail">Categorias</a></li>
+                <li class="header__nav__li"><a href="/productCart"><i class="fa-solid fa-cart-shopping"></i></a></li>
             </ul>
-        </nav>
+        </nav>   
+        </section>     
     </header>
-
-
-
-
     <main class="main">
         <img class="main__section__banner__img" src="/img/ofertas-banner2.jpg" alt="">
         <section class="main__section">
@@ -107,19 +104,23 @@
     <footer class="footer">
         <p class="footer__p">Comprar en <a href="">newhomearg.com.ar</a></p>
         <section class="footer__section">
-            <div class="footer__tex">
-            <p>Atencion al cliente:
+            <div class="footer__section__textos">
+            <p class="footer__text">Atencion al cliente:
             0810 999 6644 LU-VI de 09:00 a 18:00
             SA de 9:00 a 13:00</p>
-            <p>Venta telefonica:
+            <p class="footer__text2">Venta telefonica:
             0810 222 3700
             LU-VI de 8:00 a 20:00
             SA-DO-Feriados 9:00 a 21:00</p>
-            </div>  
+            <p class="footer__text3">
+            Las fotos son ilustrativas. La compra de cualquier de los producto publicados
+            esta sujeto a la verificacion de stock
+            </p>       
+            </div>
         <div class="footer__section__buscador">
         <p>Recibi ofertas y promociones</p> 
         <form action="">
-            <input placeholder="Ingresa tu email" type="text">
+            <input class="footer__barra" placeholder="Ingresa tu email" type="text">
         </form>  
         </div>
         <div class="footer__section__logos">
