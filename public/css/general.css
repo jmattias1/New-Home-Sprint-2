@@ -5,6 +5,10 @@
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 .header {
     background-color: #72223E;
 }
