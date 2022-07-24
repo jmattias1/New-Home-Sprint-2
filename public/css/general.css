@@ -74,8 +74,26 @@ a{
     padding: 10px;
 }
 
+/* outsidefooter */
+
+.outsidelogo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.outsidelogo img{
+    border-radius: 5px;
+}
+
+
+
 .footer {
-    background-color: #c9c9c9;
+    background-color: #ebebeb;
+    width: 100%;
+    font-family: 'Roboto';
+    font-weight: 600;
+    padding: 3%;
 }
 
 .mt-20 {
@@ -104,5 +122,69 @@ a{
 
 .search {
     border-radius: 10px;
+}
+
+
+/* footer */
+
+.logofooter , .copyright, .ofertasypromos{
+    display: none;
+}
+
+.footer_contact{
+    display: flex;
+    gap: 15px;
+}
+
+.footerbottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.footerbottom input{
+    border-radius: 5px;
+    border: transparent;
+    padding: 5px;
+}
+
+/* tablets&desktop */
+
+@media (min-width: 420px){
+
+.outsidelogo{
+    display: none;
+}
+
+.logofooter , .copyright, .ofertasypromos{
+    display: inline-block;
+}
+
+.contact{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.contact img{
+    border-radius: 5px;
+}
+
+.ofertasypromos a{
+    color: #1C18BD;
+}
+
+.copyright {
+    width: 60%;
+}
+
+.redes {
+    display: flex;
+    gap: 10px;
+}
+
+
 }
 
