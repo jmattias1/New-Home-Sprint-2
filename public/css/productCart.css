@@ -26,6 +26,15 @@
 .button{
     width: 50px;
     height: 50PX;
+    border: none;
+    background-color: #72223E;
+}
+
+.button1{
+    width: 50px;
+    height: 50PX;
+    background-color: gray;
+    border: none;
 }
 
 .img-cart{
