@@ -195,6 +195,7 @@ main h2{
 
 .sendtexto{
     display: block;
+    padding-left: 10px;
 }
 
 .sendblue{
