@@ -13,9 +13,7 @@
 <body>
     <header class="header">
         <div class="d-flex a-center">
-            <div>
-                <a class="pl-100" href="/"><img src="/img/logo 1.png" alt="logo"></a>
-            </div>
+            <a class="pl-100" href="/"><img width="100" src="/img/logo2.jpg" alt="logo"></a>
             <form class="w-100 text-center" action="">
                 <input class="search" placeholder="Buscar productos,marcas y mas..." type="text">
                 <button><i class="fa-solid fa-magnifying-glass"></i></button>
@@ -33,71 +31,95 @@
         </nav>
 
     </header>
-    <main>
-        <h1>Register</h1>
-        <form action="/register" method="post">
-            <div>
-                <label for="nombre">Nombre de usuario</label>
-                <input type="text" name="nombre" id="nombre">
+    <main class="home__main">
+        <div class="d-flex j-center">
+            <h1 class="m-botton25">Register</h1>
+        </div>
+
+        <form class="d-flex a-center flex-column" action="/register" method="post">
+            <div class="m-botton25">
+                <label class="form-label" for="email">E-mail</label>
+                <input class="form-input" type="email" name="email" id="email">
             </div>
-            <div>
-                <label for="email">E-mail</label>
-                <input type="email" name="email" id="email">
+            <div class="m-botton25">
+                <label class="form-label" for="password">Contraseña</label>
+                <input class="form-input" type="password" name="password" id="password">
             </div>
-            <div>
-                <label for="password">Contraseña</label>
-                <input type="password" name="password" id="password">
+            <div class="m-botton25">
+                <label class="form-label" for="password2">Confirmar contraseña</label>
+                <input class="form-input" type="password" name="password2" id="password2">
             </div>
-            <div>
-                <label for="password2">Confirmar contraseña</label>
-                <input type="password" name="password2" id="password2">
+
+            <div class="m-botton25">
+                <label class="form-label" for="nombre">Nombre de usuario</label>
+                <input class="form-input" type="text" name="nombre" id="nombre">
             </div>
-            
-            <div>
-                <label for="name">Nombre</label>
-                <input type="text" name="name" id="name">
+
+
+            <div class="d-flex m-botton25">
+                <div>
+                    <label class="form-label" for="name">Nombre</label>
+                    <input class="form-input" type="text" name="name" id="name">
+                </div>
+
+                <div class="m-botton25">
+                    <label class="form-label" for="apellido">Apellido</label>
+                    <input class="form-input" type="text" name="apellido" id="apellido">
+                </div>
             </div>
-            
-            <div>
-                <label for="apellido">Apellido</label>
-                <input type="text" name="apellido" id="apellido">
+            <div class="d-flex m-botton25">
+                <div>
+                    <label class="form-label">Pais</label>
+                    <select class="form-input" name="Pais" id="">
+                        <option value="1">Argentina</option>
+                        <option value="2">Peru</option>
+                        <option value="3">Paraguay</option>
+                        <option value="4">Uruguay</option>
+                        <option value="5">Chile</option>
+                        <option value="6">Brazil</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="form-label">Moneda</label>
+                    <select class="form-input" name="Moneda" id="">
+                        <option value="1">Peso Argentino</option>
+                        <option value="2">Soles</option>
+                        <option value="3">Peso Paraguayo</option>
+                        <option value="4">Peso Uruguayo</option>
+                        <option value="5">Peso chileno</option>
+                        <option value="6">Real</option>
+                    </select>
+                </div>
             </div>
-            
-            <div>
-                <label for="telefono">Telefono</label>
-                <input type="tel" name="telefono" id="telefono">
+            <div class="m-top25">
+                <label class="form-label" for="telefono">Telefono</label>
+                <input class="form-input" type="tel" name="telefono" id="telefono">
             </div>
-            <div>
-                <label>Pais</label>
-                <select name="Pais" id="">
-                    <option value="1">Argentina</option>
-                    <option value="2">Peru</option>
-                    <option value="3">Paraguay</option>
-                    <option value="4">Uruguay</option>
-                    <option value="5">Chile</option>
-                    <option value="6">Brazil</option>
-                </select>
+            <div class=" w-40 d-flex  flex-column" >
+                <input class="enviar m-top50 m-botton25" type="submit" value="Enviar" a>
             </div>
-            <div>
-                <label>Moneda</label>
-                <select name="Moneda" id="">
-                    <option value="1">Peso Argentino</option>
-                    <option value="2">Soles</option>
-                    <option value="3">Peso Paraguayo</option>
-                    <option value="4">Peso Uruguayo</option>
-                    <option value="5">Peso chileno</option>
-                    <option value="6">Real</option>
-                </select>
             </div>
-            <button type="submit">Abrir cuenta</button>
+
         </form>
-
-
+        <div class="d-flex a-center flex-column">
+            <div class="d-flex m-botton25">
+                <input class="" type="checkbox" name="" value="si">
+                <label class="m-left" for="">Al hacer click, aceptas nuestros terminos y condiciones,que eres mayor de
+                    18 años y
+                    conoces nuestra politica de juego responsable</label>
+            </div>
+        </div>
+        <div class="d-flex">
+            <div class="d-flex ">
+                <p>Ya tienes cuenta?</p>
+                <button class="enter m-left">Entra aqui</button>
+            </div>
+        </div>
 
     </main>
     <footer class="footer">
         <div class="d-flex j-around">
-            <img class="mt-20" width="40px" height="40px" src="/img/logo 1.png" alt="logo">
+            <a href="/index"><img class="mt-20" width="40px" height="40px" src="/img/logo2.jpg" alt="logo"></a>
             <ul>
                 <p>Aatencion al cliente:</p>
                 <li>0810 999 6644</li>
