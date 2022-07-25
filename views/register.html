@@ -12,24 +12,31 @@
 
 <body>
     <header class="header">
-        <div class="d-flex a-center">
-            <a class="pl-100" href="/"><img width="100" src="/img/logo2.jpg" alt="logo"></a>
-            <form class="w-100 text-center" action="">
-                <input class="search" placeholder="Buscar productos,marcas y mas..." type="text">
-                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        <section class="header__section">
+        <div class="header__section__text">
+            <h1>New Home</h1>
+            <p>- Lo mejor para tu hogar -</p>   
+        </div>
+        <div class="header__section__img">
+            <a><img class="header__section__logo" src="/img/logo2.jpg" alt="logo"></a>
+        </div>
+         <div class="header__section__menu">
+            <i id="burguer" class="fa-solid fa-bars"></i>
+            <form class="header__section__barra" action="">
+            <input class="search" placeholder="Buscar productos,marcas y mas..." type="text">
+            <button class="header__section__button"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
         </div>
-        <nav class="d-flex justi-end">
-            <ul class="menu d-flex vw-35 text-center j-between">
-                <li><a class="c-white " href="/productDetail">Categorias</a></li>
-                <div class="d-flex">
-                    <li><a class="c-white p-10" href="/register">Crea tu cuenta</a></li>
-                    <li><a class="c-white p-10" href="/login">Ingresa</a></li>
-                    <li><a class="c-white p-10" href="/productCart"><i class="fa-solid fa-cart-shopping"></i></a></li>
-                </div>
+        
+        <nav class="header__nav">
+            <ul>
+                <li class="header__nav__li"><a href="/register">Crear cuenta</a></li>
+                <li class="header__nav__li"><a href="/login">Ingresa</a></li>
+                <li class="header__nav__li"><a href="/productDetail">Categorias</a></li>
+                <li class="header__nav__li"><a href="/productCart"><i class="fa-solid fa-cart-shopping"></i></a></li>
             </ul>
-        </nav>
-
+        </nav>   
+        </section>     
     </header>
     <main class="">
         <div class="d-flex j-center">
