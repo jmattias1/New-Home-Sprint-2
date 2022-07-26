@@ -7,4 +7,4 @@ dinámica de la estrella de mar que busca resaltar aquello que hay que:
 5. Dejar de hacer.
 
 
-![alt text](https://trello.com/1/cards/62cf1b87c6d16256f0698c97/attachments/62cf3874b361c45e662c587e/previews/62cf3875b361c45e662c5885/download/63f55f75-2b0a-4338-add1-a3c2c51ec266.jpg)
+(https://trello.com/1/cards/62cf1b87c6d16256f0698c97/attachments/62cf3874b361c45e662c587e/previews/62cf3875b361c45e662c5885/download/63f55f75-2b0a-4338-add1-a3c2c51ec266.jpg)
